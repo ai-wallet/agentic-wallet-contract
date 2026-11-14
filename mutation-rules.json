@@ -1,0 +1,18 @@
+[
+  {
+    "name": "replace_bitwise_or_with_bitwise_xor",
+    "description": "Replace | with ^",
+    "explanation": "This bitwise operation is not fully covered. Changing | to ^ did not affect test results.",
+    "level": "minor",
+    "group": "bitwise",
+    "matcher": {
+      "type": "query",
+      "query": "((binary_operator operator_name: \"|\" @op) @expr (#not-match? @expr \"^((SEND_MODE_PAY_FEES_SEPARATELY|SEND_MODE_CARRY_ALL_REMAINING_MESSAGE_VALUE|SEND_MODE_CARRY_ALL_BALANCE) [|] SEND_MODE_BOUNCE_ON_ACTION_FAIL|(RESERVE_MODE_INCREASE_BY_ORIGINAL_BALANCE|RESERVE_MODE_EXACT_AMOUNT) [|] RESERVE_MODE_BOUNCE_ON_ACTION_FAIL)$\"))",
+      "capture": "op"
+    },
+    "edit": {
+      "type": "replace",
+      "replacement": "^"
+    }
+  }
+]

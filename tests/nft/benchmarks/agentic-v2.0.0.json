@@ -1,0 +1,833 @@
+{
+  "timestamp": 1794186484,
+  "opcodes": {
+    "ChangeCollectionAdmin": {
+      "min_gas": 2394,
+      "max_gas": 2394,
+      "avg_gas": 2394,
+      "samples": 1,
+      "all_values": [
+        2394
+      ]
+    },
+    "WithdrawCollectionBalance": {
+      "min_gas": 309,
+      "max_gas": 3005,
+      "avg_gas": 1657,
+      "samples": 2,
+      "all_values": [
+        3005,
+        309
+      ]
+    },
+    "NotificationForNewOwner": {
+      "min_gas": 309,
+      "max_gas": 309,
+      "avg_gas": 309,
+      "samples": 2,
+      "all_values": [
+        309,
+        309
+      ]
+    },
+    "ReturnExcessesBack": {
+      "min_gas": 309,
+      "max_gas": 309,
+      "avg_gas": 309,
+      "samples": 2,
+      "all_values": [
+        309,
+        309
+      ]
+    },
+    "RelayEditWalletContent": {
+      "min_gas": 3625,
+      "max_gas": 3625,
+      "avg_gas": 3625,
+      "samples": 1,
+      "all_values": [
+        3625
+      ]
+    },
+    "DeployWallet": {
+      "min_gas": 3262,
+      "max_gas": 5451,
+      "avg_gas": 3536,
+      "samples": 8,
+      "all_values": [
+        5451,
+        3262,
+        3262,
+        3262,
+        3262,
+        3262,
+        3262,
+        3262
+      ]
+    },
+    "RelayDeployWallet": {
+      "min_gas": 4791,
+      "max_gas": 4791,
+      "avg_gas": 4791,
+      "samples": 7,
+      "all_values": [
+        4791,
+        4791,
+        4791,
+        4791,
+        4791,
+        4791,
+        4791
+      ]
+    },
+    "EditCollectionSettings": {
+      "min_gas": 2559,
+      "max_gas": 2559,
+      "avg_gas": 2559,
+      "samples": 1,
+      "all_values": [
+        2559
+      ]
+    },
+    "RelayPublicDeployWallet": {
+      "min_gas": 8655,
+      "max_gas": 8655,
+      "avg_gas": 8655,
+      "samples": 1,
+      "all_values": [
+        8655
+      ]
+    },
+    "EditCollectionContent": {
+      "min_gas": 2294,
+      "max_gas": 2294,
+      "avg_gas": 2294,
+      "samples": 1,
+      "all_values": [
+        2294
+      ]
+    },
+    "ResponseStaticData": {
+      "min_gas": 309,
+      "max_gas": 309,
+      "avg_gas": 309,
+      "samples": 2,
+      "all_values": [
+        309,
+        309
+      ]
+    },
+    "RequestRoyaltyParams": {
+      "min_gas": 2501,
+      "max_gas": 2501,
+      "avg_gas": 2501,
+      "samples": 4,
+      "all_values": [
+        2501,
+        2501,
+        2501,
+        2501
+      ]
+    },
+    "ChangeWalletOwner": {
+      "min_gas": 7351,
+      "max_gas": 7351,
+      "avg_gas": 7351,
+      "samples": 2,
+      "all_values": [
+        7351,
+        7351
+      ]
+    },
+    "EditWalletContent": {
+      "min_gas": 2341,
+      "max_gas": 2341,
+      "avg_gas": 2341,
+      "samples": 1,
+      "all_values": [
+        2341
+      ]
+    },
+    "ResponseRoyaltyParams": {
+      "min_gas": 309,
+      "max_gas": 309,
+      "avg_gas": 309,
+      "samples": 4,
+      "all_values": [
+        309,
+        309,
+        309,
+        309
+      ]
+    },
+    "RequestStaticData": {
+      "min_gas": 2609,
+      "max_gas": 2609,
+      "avg_gas": 2609,
+      "samples": 2,
+      "all_values": [
+        2609,
+        2609
+      ]
+    }
+  },
+  "trace_chains": {
+    "test nft e2e bench: stage 2 report royalty params::trace#5": {
+      "test_name": "test nft e2e bench: stage 2 report royalty params",
+      "trace_name": "Trace 5",
+      "tx_count": 1,
+      "total_gas_used": 309,
+      "total_gas_fees": 20601,
+      "total_forward_fees": 94491,
+      "total_fees": 20601
+    },
+    "test nft e2e bench: stage 5 full collection and wallet flow::trace#13": {
+      "test_name": "test nft e2e bench: stage 5 full collection and wallet flow",
+      "trace_name": "public deploy wallet with referral",
+      "tx_count": 4,
+      "total_gas_used": 14106,
+      "total_gas_fees": 940402,
+      "total_forward_fees": 743166,
+      "total_fees": 1279462
+    },
+    "test nft e2e bench: stage 4 transfer wallet and request static data::trace#12": {
+      "test_name": "test nft e2e bench: stage 4 transfer wallet and request static data",
+      "trace_name": "deploy wallet",
+      "tx_count": 2,
+      "total_gas_used": 8053,
+      "total_gas_fees": 536869,
+      "total_forward_fees": 660718,
+      "total_fees": 824642
+    },
+    "test nft e2e bench: stage 5 full collection and wallet flow::trace#5": {
+      "test_name": "test nft e2e bench: stage 5 full collection and wallet flow",
+      "trace_name": "Trace 5",
+      "tx_count": 1,
+      "total_gas_used": 309,
+      "total_gas_fees": 20601,
+      "total_forward_fees": 94491,
+      "total_fees": 20601
+    },
+    "test nft e2e bench: stage 2 report royalty params::trace#3": {
+      "test_name": "test nft e2e bench: stage 2 report royalty params",
+      "trace_name": "Trace 3",
+      "tx_count": 1,
+      "total_gas_used": 309,
+      "total_gas_fees": 20601,
+      "total_forward_fees": 95913,
+      "total_fees": 20601
+    },
+    "test nft e2e bench: stage 3 deploy wallet::trace#7": {
+      "test_name": "test nft e2e bench: stage 3 deploy wallet",
+      "trace_name": "Trace 7",
+      "tx_count": 1,
+      "total_gas_used": 309,
+      "total_gas_fees": 20601,
+      "total_forward_fees": 94491,
+      "total_fees": 20601
+    },
+    "test nft e2e bench: stage 1 deploy collection::trace#6": {
+      "test_name": "test nft e2e bench: stage 1 deploy collection",
+      "trace_name": "Trace 6",
+      "tx_count": 1,
+      "total_gas_used": 309,
+      "total_gas_fees": 20601,
+      "total_forward_fees": 95913,
+      "total_fees": 20601
+    },
+    "test nft e2e bench: stage 3 deploy wallet::trace#12": {
+      "test_name": "test nft e2e bench: stage 3 deploy wallet",
+      "trace_name": "deploy wallet",
+      "tx_count": 2,
+      "total_gas_used": 8053,
+      "total_gas_fees": 536869,
+      "total_forward_fees": 660718,
+      "total_fees": 824642
+    },
+    "test nft e2e bench: stage 1 deploy collection::trace#5": {
+      "test_name": "test nft e2e bench: stage 1 deploy collection",
+      "trace_name": "Trace 5",
+      "tx_count": 1,
+      "total_gas_used": 309,
+      "total_gas_fees": 20601,
+      "total_forward_fees": 94491,
+      "total_fees": 20601
+    },
+    "test nft e2e bench: stage 4 transfer wallet and request static data::trace#3": {
+      "test_name": "test nft e2e bench: stage 4 transfer wallet and request static data",
+      "trace_name": "Trace 3",
+      "tx_count": 1,
+      "total_gas_used": 309,
+      "total_gas_fees": 20601,
+      "total_forward_fees": 95913,
+      "total_fees": 20601
+    },
+    "test nft e2e bench: stage 2 report royalty params::trace#11": {
+      "test_name": "test nft e2e bench: stage 2 report royalty params",
+      "trace_name": "report royalty params",
+      "tx_count": 2,
+      "total_gas_used": 2810,
+      "total_gas_fees": 187335,
+      "total_forward_fees": 110892,
+      "total_fees": 220557
+    },
+    "test nft e2e bench: stage 5 full collection and wallet flow::trace#22": {
+      "test_name": "test nft e2e bench: stage 5 full collection and wallet flow",
+      "trace_name": "top up collection",
+      "tx_count": 1,
+      "total_gas_used": 1328,
+      "total_gas_fees": 88534,
+      "total_forward_fees": 44446,
+      "total_fees": 88534
+    },
+    "test nft e2e bench: stage 2 report royalty params::trace#4": {
+      "test_name": "test nft e2e bench: stage 2 report royalty params",
+      "trace_name": "Trace 4",
+      "tx_count": 1,
+      "total_gas_used": 309,
+      "total_gas_fees": 20601,
+      "total_forward_fees": 93424,
+      "total_fees": 20601
+    },
+    "test nft e2e bench: stage 3 deploy wallet::trace#9": {
+      "test_name": "test nft e2e bench: stage 3 deploy wallet",
+      "trace_name": "Trace 9",
+      "tx_count": 1,
+      "total_gas_used": 309,
+      "total_gas_fees": 20601,
+      "total_forward_fees": 93069,
+      "total_fees": 20601
+    },
+    "test nft e2e bench: stage 5 full collection and wallet flow::trace#2": {
+      "test_name": "test nft e2e bench: stage 5 full collection and wallet flow",
+      "trace_name": "Trace 2",
+      "tx_count": 1,
+      "total_gas_used": 309,
+      "total_gas_fees": 20601,
+      "total_forward_fees": 94847,
+      "total_fees": 20601
+    },
+    "test nft e2e bench: stage 5 full collection and wallet flow::trace#3": {
+      "test_name": "test nft e2e bench: stage 5 full collection and wallet flow",
+      "trace_name": "Trace 3",
+      "tx_count": 1,
+      "total_gas_used": 309,
+      "total_gas_fees": 20601,
+      "total_forward_fees": 95913,
+      "total_fees": 20601
+    },
+    "test nft e2e bench: stage 2 report royalty params::trace#1": {
+      "test_name": "test nft e2e bench: stage 2 report royalty params",
+      "trace_name": "Trace 1",
+      "tx_count": 1,
+      "total_gas_used": 309,
+      "total_gas_fees": 20601,
+      "total_forward_fees": 92713,
+      "total_fees": 20601
+    },
+    "test nft e2e bench: stage 4 transfer wallet and request static data::trace#11": {
+      "test_name": "test nft e2e bench: stage 4 transfer wallet and request static data",
+      "trace_name": "report royalty params",
+      "tx_count": 2,
+      "total_gas_used": 2810,
+      "total_gas_fees": 187335,
+      "total_forward_fees": 110892,
+      "total_fees": 220557
+    },
+    "test nft e2e bench: stage 5 full collection and wallet flow::trace#12": {
+      "test_name": "test nft e2e bench: stage 5 full collection and wallet flow",
+      "trace_name": "Trace 12",
+      "tx_count": 1,
+      "total_gas_used": 309,
+      "total_gas_fees": 20601,
+      "total_forward_fees": 95557,
+      "total_fees": 20601
+    },
+    "test nft e2e bench: stage 1 deploy collection::trace#4": {
+      "test_name": "test nft e2e bench: stage 1 deploy collection",
+      "trace_name": "Trace 4",
+      "tx_count": 1,
+      "total_gas_used": 309,
+      "total_gas_fees": 20601,
+      "total_forward_fees": 93424,
+      "total_fees": 20601
+    },
+    "test nft e2e bench: stage 2 report royalty params::trace#8": {
+      "test_name": "test nft e2e bench: stage 2 report royalty params",
+      "trace_name": "Trace 8",
+      "tx_count": 1,
+      "total_gas_used": 309,
+      "total_gas_fees": 20601,
+      "total_forward_fees": 94491,
+      "total_fees": 20601
+    },
+    "test nft e2e bench: stage 5 full collection and wallet flow::trace#9": {
+      "test_name": "test nft e2e bench: stage 5 full collection and wallet flow",
+      "trace_name": "Trace 9",
+      "tx_count": 1,
+      "total_gas_used": 309,
+      "total_gas_fees": 20601,
+      "total_forward_fees": 93069,
+      "total_fees": 20601
+    },
+    "test nft e2e bench: stage 5 full collection and wallet flow::trace#26": {
+      "test_name": "test nft e2e bench: stage 5 full collection and wallet flow",
+      "trace_name": "withdraw collection balance",
+      "tx_count": 2,
+      "total_gas_used": 3314,
+      "total_gas_fees": 220935,
+      "total_forward_fees": 88892,
+      "total_fees": 243156
+    },
+    "test nft e2e bench: stage 4 transfer wallet and request static data::trace#7": {
+      "test_name": "test nft e2e bench: stage 4 transfer wallet and request static data",
+      "trace_name": "Trace 7",
+      "tx_count": 1,
+      "total_gas_used": 309,
+      "total_gas_fees": 20601,
+      "total_forward_fees": 94491,
+      "total_fees": 20601
+    },
+    "test nft e2e bench: stage 4 transfer wallet and request static data::trace#13": {
+      "test_name": "test nft e2e bench: stage 4 transfer wallet and request static data",
+      "trace_name": "transfer wallet",
+      "tx_count": 3,
+      "total_gas_used": 7969,
+      "total_gas_fees": 531270,
+      "total_forward_fees": 210850,
+      "total_fees": 591801
+    },
+    "test nft e2e bench: stage 3 deploy wallet::trace#2": {
+      "test_name": "test nft e2e bench: stage 3 deploy wallet",
+      "trace_name": "Trace 2",
+      "tx_count": 1,
+      "total_gas_used": 309,
+      "total_gas_fees": 20601,
+      "total_forward_fees": 94847,
+      "total_fees": 20601
+    },
+    "test nft e2e bench: stage 5 full collection and wallet flow::trace#17": {
+      "test_name": "test nft e2e bench: stage 5 full collection and wallet flow",
+      "trace_name": "deploy several wallets",
+      "tx_count": 2,
+      "total_gas_used": 8053,
+      "total_gas_fees": 536869,
+      "total_forward_fees": 661430,
+      "total_fees": 824820
+    },
+    "test nft e2e bench: stage 1 deploy collection::trace#3": {
+      "test_name": "test nft e2e bench: stage 1 deploy collection",
+      "trace_name": "Trace 3",
+      "tx_count": 1,
+      "total_gas_used": 309,
+      "total_gas_fees": 20601,
+      "total_forward_fees": 95913,
+      "total_fees": 20601
+    },
+    "test nft e2e bench: stage 3 deploy wallet::trace#6": {
+      "test_name": "test nft e2e bench: stage 3 deploy wallet",
+      "trace_name": "Trace 6",
+      "tx_count": 1,
+      "total_gas_used": 309,
+      "total_gas_fees": 20601,
+      "total_forward_fees": 95913,
+      "total_fees": 20601
+    },
+    "test nft e2e bench: stage 2 report royalty params::trace#9": {
+      "test_name": "test nft e2e bench: stage 2 report royalty params",
+      "trace_name": "Trace 9",
+      "tx_count": 1,
+      "total_gas_used": 309,
+      "total_gas_fees": 20601,
+      "total_forward_fees": 93069,
+      "total_fees": 20601
+    },
+    "test nft e2e bench: stage 1 deploy collection::trace#10": {
+      "test_name": "test nft e2e bench: stage 1 deploy collection",
+      "trace_name": "deploy collection",
+      "tx_count": 1,
+      "total_gas_used": 1328,
+      "total_gas_fees": 88534,
+      "total_forward_fees": 1147832,
+      "total_fees": 88534
+    },
+    "test nft e2e bench: stage 5 full collection and wallet flow::trace#21": {
+      "test_name": "test nft e2e bench: stage 5 full collection and wallet flow",
+      "trace_name": "change collection admin",
+      "tx_count": 1,
+      "total_gas_used": 2394,
+      "total_gas_fees": 159601,
+      "total_forward_fees": 65024,
+      "total_fees": 159601
+    },
+    "test nft e2e bench: stage 2 report royalty params::trace#6": {
+      "test_name": "test nft e2e bench: stage 2 report royalty params",
+      "trace_name": "Trace 6",
+      "tx_count": 1,
+      "total_gas_used": 309,
+      "total_gas_fees": 20601,
+      "total_forward_fees": 95913,
+      "total_fees": 20601
+    },
+    "test nft e2e bench: stage 4 transfer wallet and request static data::trace#2": {
+      "test_name": "test nft e2e bench: stage 4 transfer wallet and request static data",
+      "trace_name": "Trace 2",
+      "tx_count": 1,
+      "total_gas_used": 309,
+      "total_gas_fees": 20601,
+      "total_forward_fees": 94847,
+      "total_fees": 20601
+    },
+    "test nft e2e bench: stage 5 full collection and wallet flow::trace#10": {
+      "test_name": "test nft e2e bench: stage 5 full collection and wallet flow",
+      "trace_name": "deploy collection",
+      "tx_count": 1,
+      "total_gas_used": 1328,
+      "total_gas_fees": 88534,
+      "total_forward_fees": 1147832,
+      "total_fees": 88534
+    },
+    "test nft e2e bench: stage 1 deploy collection::trace#8": {
+      "test_name": "test nft e2e bench: stage 1 deploy collection",
+      "trace_name": "Trace 8",
+      "tx_count": 1,
+      "total_gas_used": 309,
+      "total_gas_fees": 20601,
+      "total_forward_fees": 94491,
+      "total_fees": 20601
+    },
+    "test nft e2e bench: stage 5 full collection and wallet flow::trace#20": {
+      "test_name": "test nft e2e bench: stage 5 full collection and wallet flow",
+      "trace_name": "deploy several wallets",
+      "tx_count": 2,
+      "total_gas_used": 8053,
+      "total_gas_fees": 536869,
+      "total_forward_fees": 661430,
+      "total_fees": 824820
+    },
+    "test nft e2e bench: stage 4 transfer wallet and request static data::trace#8": {
+      "test_name": "test nft e2e bench: stage 4 transfer wallet and request static data",
+      "trace_name": "Trace 8",
+      "tx_count": 1,
+      "total_gas_used": 309,
+      "total_gas_fees": 20601,
+      "total_forward_fees": 94491,
+      "total_fees": 20601
+    },
+    "test nft e2e bench: stage 3 deploy wallet::trace#5": {
+      "test_name": "test nft e2e bench: stage 3 deploy wallet",
+      "trace_name": "Trace 5",
+      "tx_count": 1,
+      "total_gas_used": 309,
+      "total_gas_fees": 20601,
+      "total_forward_fees": 94491,
+      "total_fees": 20601
+    },
+    "test nft e2e bench: stage 4 transfer wallet and request static data::trace#14": {
+      "test_name": "test nft e2e bench: stage 4 transfer wallet and request static data",
+      "trace_name": "request static data",
+      "tx_count": 2,
+      "total_gas_used": 2918,
+      "total_gas_fees": 194535,
+      "total_forward_fees": 120848,
+      "total_fees": 232734
+    },
+    "test nft e2e bench: stage 5 full collection and wallet flow::trace#23": {
+      "test_name": "test nft e2e bench: stage 5 full collection and wallet flow",
+      "trace_name": "edit wallet content",
+      "tx_count": 2,
+      "total_gas_used": 5966,
+      "total_gas_fees": 397736,
+      "total_forward_fees": 114492,
+      "total_fees": 426358
+    },
+    "test nft e2e bench: stage 2 report royalty params::trace#10": {
+      "test_name": "test nft e2e bench: stage 2 report royalty params",
+      "trace_name": "deploy collection",
+      "tx_count": 1,
+      "total_gas_used": 1328,
+      "total_gas_fees": 88534,
+      "total_forward_fees": 1147832,
+      "total_fees": 88534
+    },
+    "test nft e2e bench: stage 5 full collection and wallet flow::trace#6": {
+      "test_name": "test nft e2e bench: stage 5 full collection and wallet flow",
+      "trace_name": "Trace 6",
+      "tx_count": 1,
+      "total_gas_used": 309,
+      "total_gas_fees": 20601,
+      "total_forward_fees": 95913,
+      "total_fees": 20601
+    },
+    "test nft e2e bench: stage 5 full collection and wallet flow::trace#1": {
+      "test_name": "test nft e2e bench: stage 5 full collection and wallet flow",
+      "trace_name": "Trace 1",
+      "tx_count": 1,
+      "total_gas_used": 309,
+      "total_gas_fees": 20601,
+      "total_forward_fees": 92713,
+      "total_fees": 20601
+    },
+    "test nft e2e bench: stage 3 deploy wallet::trace#3": {
+      "test_name": "test nft e2e bench: stage 3 deploy wallet",
+      "trace_name": "Trace 3",
+      "tx_count": 1,
+      "total_gas_used": 309,
+      "total_gas_fees": 20601,
+      "total_forward_fees": 95913,
+      "total_fees": 20601
+    },
+    "test nft e2e bench: stage 4 transfer wallet and request static data::trace#10": {
+      "test_name": "test nft e2e bench: stage 4 transfer wallet and request static data",
+      "trace_name": "deploy collection",
+      "tx_count": 1,
+      "total_gas_used": 1328,
+      "total_gas_fees": 88534,
+      "total_forward_fees": 1147832,
+      "total_fees": 88534
+    },
+    "test nft e2e bench: stage 3 deploy wallet::trace#4": {
+      "test_name": "test nft e2e bench: stage 3 deploy wallet",
+      "trace_name": "Trace 4",
+      "tx_count": 1,
+      "total_gas_used": 309,
+      "total_gas_fees": 20601,
+      "total_forward_fees": 93424,
+      "total_fees": 20601
+    },
+    "test nft e2e bench: stage 5 full collection and wallet flow::trace#4": {
+      "test_name": "test nft e2e bench: stage 5 full collection and wallet flow",
+      "trace_name": "Trace 4",
+      "tx_count": 1,
+      "total_gas_used": 309,
+      "total_gas_fees": 20601,
+      "total_forward_fees": 93424,
+      "total_fees": 20601
+    },
+    "test nft e2e bench: stage 5 full collection and wallet flow::trace#11": {
+      "test_name": "test nft e2e bench: stage 5 full collection and wallet flow",
+      "trace_name": "report royalty params",
+      "tx_count": 2,
+      "total_gas_used": 2810,
+      "total_gas_fees": 187335,
+      "total_forward_fees": 110892,
+      "total_fees": 220557
+    },
+    "test nft e2e bench: stage 5 full collection and wallet flow::trace#8": {
+      "test_name": "test nft e2e bench: stage 5 full collection and wallet flow",
+      "trace_name": "Trace 8",
+      "tx_count": 1,
+      "total_gas_used": 309,
+      "total_gas_fees": 20601,
+      "total_forward_fees": 94491,
+      "total_fees": 20601
+    },
+    "test nft e2e bench: stage 5 full collection and wallet flow::trace#14": {
+      "test_name": "test nft e2e bench: stage 5 full collection and wallet flow",
+      "trace_name": "deploy wallet",
+      "tx_count": 2,
+      "total_gas_used": 8053,
+      "total_gas_fees": 536869,
+      "total_forward_fees": 660718,
+      "total_fees": 824642
+    },
+    "test nft e2e bench: stage 5 full collection and wallet flow::trace#25": {
+      "test_name": "test nft e2e bench: stage 5 full collection and wallet flow",
+      "trace_name": "edit collection settings",
+      "tx_count": 1,
+      "total_gas_used": 2559,
+      "total_gas_fees": 170601,
+      "total_forward_fees": 44446,
+      "total_fees": 170601
+    },
+    "test nft e2e bench: stage 5 full collection and wallet flow::trace#16": {
+      "test_name": "test nft e2e bench: stage 5 full collection and wallet flow",
+      "trace_name": "request static data",
+      "tx_count": 2,
+      "total_gas_used": 2918,
+      "total_gas_fees": 194535,
+      "total_forward_fees": 120848,
+      "total_fees": 232734
+    },
+    "test nft e2e bench: stage 1 deploy collection::trace#7": {
+      "test_name": "test nft e2e bench: stage 1 deploy collection",
+      "trace_name": "Trace 7",
+      "tx_count": 1,
+      "total_gas_used": 309,
+      "total_gas_fees": 20601,
+      "total_forward_fees": 94491,
+      "total_fees": 20601
+    },
+    "test nft e2e bench: stage 1 deploy collection::trace#9": {
+      "test_name": "test nft e2e bench: stage 1 deploy collection",
+      "trace_name": "Trace 9",
+      "tx_count": 1,
+      "total_gas_used": 309,
+      "total_gas_fees": 20601,
+      "total_forward_fees": 93069,
+      "total_fees": 20601
+    },
+    "test nft e2e bench: stage 4 transfer wallet and request static data::trace#5": {
+      "test_name": "test nft e2e bench: stage 4 transfer wallet and request static data",
+      "trace_name": "Trace 5",
+      "tx_count": 1,
+      "total_gas_used": 309,
+      "total_gas_fees": 20601,
+      "total_forward_fees": 94491,
+      "total_fees": 20601
+    },
+    "test nft e2e bench: stage 3 deploy wallet::trace#8": {
+      "test_name": "test nft e2e bench: stage 3 deploy wallet",
+      "trace_name": "Trace 8",
+      "tx_count": 1,
+      "total_gas_used": 309,
+      "total_gas_fees": 20601,
+      "total_forward_fees": 94491,
+      "total_fees": 20601
+    },
+    "test nft e2e bench: stage 3 deploy wallet::trace#11": {
+      "test_name": "test nft e2e bench: stage 3 deploy wallet",
+      "trace_name": "report royalty params",
+      "tx_count": 2,
+      "total_gas_used": 2810,
+      "total_gas_fees": 187335,
+      "total_forward_fees": 110892,
+      "total_fees": 220557
+    },
+    "test nft e2e bench: stage 3 deploy wallet::trace#1": {
+      "test_name": "test nft e2e bench: stage 3 deploy wallet",
+      "trace_name": "Trace 1",
+      "tx_count": 1,
+      "total_gas_used": 309,
+      "total_gas_fees": 20601,
+      "total_forward_fees": 92713,
+      "total_fees": 20601
+    },
+    "test nft e2e bench: stage 2 report royalty params::trace#2": {
+      "test_name": "test nft e2e bench: stage 2 report royalty params",
+      "trace_name": "Trace 2",
+      "tx_count": 1,
+      "total_gas_used": 309,
+      "total_gas_fees": 20601,
+      "total_forward_fees": 94847,
+      "total_fees": 20601
+    },
+    "test nft e2e bench: stage 4 transfer wallet and request static data::trace#6": {
+      "test_name": "test nft e2e bench: stage 4 transfer wallet and request static data",
+      "trace_name": "Trace 6",
+      "tx_count": 1,
+      "total_gas_used": 309,
+      "total_gas_fees": 20601,
+      "total_forward_fees": 95913,
+      "total_fees": 20601
+    },
+    "test nft e2e bench: stage 5 full collection and wallet flow::trace#24": {
+      "test_name": "test nft e2e bench: stage 5 full collection and wallet flow",
+      "trace_name": "edit collection content",
+      "tx_count": 1,
+      "total_gas_used": 2294,
+      "total_gas_fees": 152934,
+      "total_forward_fees": 89735,
+      "total_fees": 152934
+    },
+    "test nft e2e bench: stage 5 full collection and wallet flow::trace#18": {
+      "test_name": "test nft e2e bench: stage 5 full collection and wallet flow",
+      "trace_name": "deploy several wallets",
+      "tx_count": 2,
+      "total_gas_used": 8053,
+      "total_gas_fees": 536869,
+      "total_forward_fees": 661430,
+      "total_fees": 824820
+    },
+    "test nft e2e bench: stage 1 deploy collection::trace#1": {
+      "test_name": "test nft e2e bench: stage 1 deploy collection",
+      "trace_name": "Trace 1",
+      "tx_count": 1,
+      "total_gas_used": 309,
+      "total_gas_fees": 20601,
+      "total_forward_fees": 92713,
+      "total_fees": 20601
+    },
+    "test nft e2e bench: stage 2 report royalty params::trace#7": {
+      "test_name": "test nft e2e bench: stage 2 report royalty params",
+      "trace_name": "Trace 7",
+      "tx_count": 1,
+      "total_gas_used": 309,
+      "total_gas_fees": 20601,
+      "total_forward_fees": 94491,
+      "total_fees": 20601
+    },
+    "test nft e2e bench: stage 4 transfer wallet and request static data::trace#1": {
+      "test_name": "test nft e2e bench: stage 4 transfer wallet and request static data",
+      "trace_name": "Trace 1",
+      "tx_count": 1,
+      "total_gas_used": 309,
+      "total_gas_fees": 20601,
+      "total_forward_fees": 92713,
+      "total_fees": 20601
+    },
+    "test nft e2e bench: stage 4 transfer wallet and request static data::trace#4": {
+      "test_name": "test nft e2e bench: stage 4 transfer wallet and request static data",
+      "trace_name": "Trace 4",
+      "tx_count": 1,
+      "total_gas_used": 309,
+      "total_gas_fees": 20601,
+      "total_forward_fees": 93424,
+      "total_fees": 20601
+    },
+    "test nft e2e bench: stage 4 transfer wallet and request static data::trace#9": {
+      "test_name": "test nft e2e bench: stage 4 transfer wallet and request static data",
+      "trace_name": "Trace 9",
+      "tx_count": 1,
+      "total_gas_used": 309,
+      "total_gas_fees": 20601,
+      "total_forward_fees": 93069,
+      "total_fees": 20601
+    },
+    "test nft e2e bench: stage 3 deploy wallet::trace#10": {
+      "test_name": "test nft e2e bench: stage 3 deploy wallet",
+      "trace_name": "deploy collection",
+      "tx_count": 1,
+      "total_gas_used": 1328,
+      "total_gas_fees": 88534,
+      "total_forward_fees": 1147832,
+      "total_fees": 88534
+    },
+    "test nft e2e bench: stage 5 full collection and wallet flow::trace#19": {
+      "test_name": "test nft e2e bench: stage 5 full collection and wallet flow",
+      "trace_name": "deploy several wallets",
+      "tx_count": 2,
+      "total_gas_used": 8053,
+      "total_gas_fees": 536869,
+      "total_forward_fees": 661430,
+      "total_fees": 824820
+    },
+    "test nft e2e bench: stage 5 full collection and wallet flow::trace#15": {
+      "test_name": "test nft e2e bench: stage 5 full collection and wallet flow",
+      "trace_name": "transfer wallet",
+      "tx_count": 3,
+      "total_gas_used": 7969,
+      "total_gas_fees": 531270,
+      "total_forward_fees": 210850,
+      "total_fees": 591801
+    },
+    "test nft e2e bench: stage 1 deploy collection::trace#2": {
+      "test_name": "test nft e2e bench: stage 1 deploy collection",
+      "trace_name": "Trace 2",
+      "tx_count": 1,
+      "total_gas_used": 309,
+      "total_gas_fees": 20601,
+      "total_forward_fees": 94847,
+      "total_fees": 20601
+    },
+    "test nft e2e bench: stage 5 full collection and wallet flow::trace#7": {
+      "test_name": "test nft e2e bench: stage 5 full collection and wallet flow",
+      "trace_name": "Trace 7",
+      "tx_count": 1,
+      "total_gas_used": 309,
+      "total_gas_fees": 20601,
+      "total_forward_fees": 94491,
+      "total_fees": 20601
+    }
+  }
+}

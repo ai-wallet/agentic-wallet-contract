@@ -1,0 +1,116 @@
+[package]
+name = "agentic-wallet"
+description = "NFT collection of W5-based agentic wallets with owner actions and delegate-signed requests"
+version = "2.0.0"
+repository = "https://github.com/ai-wallet/agentic-wallet-contract"
+license = "MIT"
+
+[toolchain]
+acton = "1.2.1"
+
+[contracts.AgenticCollection]
+display-name = "AgenticCollection"
+src = "contracts/AgenticCollection.tolk"
+
+[contracts.AgenticWallet]
+display-name = "AgenticWallet"
+src = "contracts/AgenticWallet.tolk"
+
+[test]
+
+[test.coverage]
+enabled = true
+format = "text"
+output-file = "build/coverage.txt"
+minimum-percent = 98.7
+include-tests = false
+include-wrappers = false
+
+[test.mutation]
+mutation-levels = ["critical","major","minor"]
+minimum-percent = 100.0
+timeout = 600
+rules-file = "mutation-rules.json"
+
+[fmt]
+width = 100
+separate-import-groups = true
+
+[scripts]
+collection-deploy = "acton script scripts/collection-deploy.tolk"
+collection-public-deploy-wallet = "acton script scripts/collection-public-deploy-wallet.tolk"
+collection-deploy-wallet = "acton script scripts/collection-deploy-wallet.tolk"
+collection-edit-wallet-content = "acton script scripts/collection-edit-wallet-content.tolk"
+collection-edit-content = "acton script scripts/collection-edit-content.tolk"
+collection-edit-settings = "acton script scripts/collection-edit-settings.tolk"
+collection-withdraw-balance = "acton script scripts/collection-withdraw-balance.tolk"
+collection-change-admin = "acton script scripts/collection-change-admin.tolk"
+collection-info = "acton script scripts/collection-info.tolk"
+
+wallet-signed-request = "acton script scripts/wallet-signed-request.tolk"
+wallet-owner-action = "acton script scripts/wallet-owner-action.tolk"
+wallet-change-owner = "acton script scripts/wallet-change-owner.tolk"
+wallet-change-delegate = "acton script scripts/wallet-change-delegate.tolk"
+wallet-info = "acton script scripts/wallet-info.tolk"
+
+bench-nft = "acton test tests/nft/e2e-happy-paths.test.tolk --coverage-minimum-percent 0 --coverage-file build/coverage-bench-nft.txt --snapshot tests/nft/benchmarks/agentic-v2.0.0.json"
+bench-w5 = "acton test tests/w5/e2e-happy-paths.test.tolk --coverage-minimum-percent 0 --coverage-file build/coverage-bench-w5.txt --snapshot tests/w5/benchmarks/agentic-v2.0.0.json"
+gas-check-nft = "acton test tests/nft/e2e-happy-paths.test.tolk --coverage-minimum-percent 0 --coverage-file build/coverage-bench-nft.txt --baseline-snapshot tests/nft/benchmarks/agentic-v2.0.0.json --fail-on-diff"
+gas-check-w5 = "acton test tests/w5/e2e-happy-paths.test.tolk --coverage-minimum-percent 0 --coverage-file build/coverage-bench-w5.txt --baseline-snapshot tests/w5/benchmarks/agentic-v2.0.0.json --fail-on-diff"
+mutate-collection = "acton test --mutate --mutate-contract AgenticCollection --mutation-workers 4"
+mutate-wallet = "acton test --mutate --mutate-contract AgenticWallet --mutation-workers 4"
+
+[lint]
+max-warnings = 0
+
+[lint.rules]
+unused-variable = "deny"
+mutable-variable-can-be-immutable = "deny"
+deprecated-symbol-use = "deny"
+write-only-variable = "deny"
+unused-import = "deny"
+pure-function-call-unused = "deny"
+no-bounce-handler = "deny"
+used-ignored-identifier = "deny"
+mutable-parameter-can-be-immutable = "deny"
+acton-import-in-contract = "deny"
+asm-function-missing-safety-comment = "deny"
+send-mode-literal = "deny"
+several-not-null-assertions = "deny"
+reserve-mode-literal = "deny"
+dangerous-send-mode-missing-safety-comment = "deny"
+bless-call-missing-safety-comment = "deny"
+random-requires-initialization = "deny"
+divide-before-multiply = "deny"
+duplicated-condition = "deny"
+identical-conditional-branches = "deny"
+no-global-variables = "deny"
+enum-cast-missing-safety-comment = "deny"
+missing-contract-header = "deny"
+unused-expression = "deny"
+dict-type-use = "deny"
+throw-requires-errors-enum = "deny"
+create-message-body-to-cell = "deny"
+unnecessary-not-null-assertion = "deny"
+name-case-checker = "deny"
+explicit-return-type = "deny"
+field-init-can-be-folded = "deny"
+method-can-be-static = "deny"
+message-should-be-named = "deny"
+create-message-inline-send = "deny"
+import-path-can-use-mappings = "deny"
+negated-is-type-can-use-not-is = "deny"
+prefer-grams = "deny"
+throw-requires-documented-error-value = "deny"
+unauthorized-access = "deny"
+
+[build]
+output-sources = "build/sources"
+
+[import-mappings]
+acton = ".acton"
+contracts = "contracts"
+gen = "gen"
+scripts = "scripts"
+tests = "tests"
+wrappers = "wrappers"

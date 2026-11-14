@@ -1,0 +1,384 @@
+{
+  "timestamp": 1794186484,
+  "opcodes": {
+    "ChangeWalletDelegate": {
+      "min_gas": 2233,
+      "max_gas": 2233,
+      "avg_gas": 2233,
+      "samples": 1,
+      "all_values": [
+        2233
+      ]
+    },
+    "InternalSignedRequest": {
+      "min_gas": 4226,
+      "max_gas": 4226,
+      "avg_gas": 4226,
+      "samples": 1,
+      "all_values": [
+        4226
+      ]
+    },
+    "ExternalSignedRequest": {
+      "min_gas": 3962,
+      "max_gas": 3962,
+      "avg_gas": 3962,
+      "samples": 1,
+      "all_values": [
+        3962
+      ]
+    },
+    "DeployWallet": {
+      "min_gas": 3262,
+      "max_gas": 3262,
+      "avg_gas": 3262,
+      "samples": 5,
+      "all_values": [
+        3262,
+        3262,
+        3262,
+        3262,
+        3262
+      ]
+    },
+    "RelayDeployWallet": {
+      "min_gas": 4791,
+      "max_gas": 4791,
+      "avg_gas": 4791,
+      "samples": 5,
+      "all_values": [
+        4791,
+        4791,
+        4791,
+        4791,
+        4791
+      ]
+    },
+    "OwnerActionRequest": {
+      "min_gas": 2654,
+      "max_gas": 2654,
+      "avg_gas": 2654,
+      "samples": 1,
+      "all_values": [
+        2654
+      ]
+    }
+  },
+  "trace_chains": {
+    "test w5 bench: OWNER transfer::trace#5": {
+      "test_name": "test w5 bench: OWNER transfer",
+      "trace_name": "setup deploy AgenticWallet",
+      "tx_count": 2,
+      "total_gas_used": 8053,
+      "total_gas_fees": 536869,
+      "total_forward_fees": 644007,
+      "total_fees": 820465
+    },
+    "test w5 bench: SET delegate::trace#2": {
+      "test_name": "test w5 bench: SET delegate",
+      "trace_name": "Trace 2",
+      "tx_count": 1,
+      "total_gas_used": 309,
+      "total_gas_fees": 20601,
+      "total_forward_fees": 88802,
+      "total_fees": 20601
+    },
+    "test w5 bench: deploy should set the seqno, delegate key and owner::trace#2": {
+      "test_name": "test w5 bench: deploy should set the seqno, delegate key and owner",
+      "trace_name": "Trace 2",
+      "tx_count": 1,
+      "total_gas_used": 309,
+      "total_gas_fees": 20601,
+      "total_forward_fees": 88802,
+      "total_fees": 20601
+    },
+    "test w5 bench: EXTERNAL transfer::trace#7": {
+      "test_name": "test w5 bench: EXTERNAL transfer",
+      "trace_name": "EXTERNAL transfer",
+      "tx_count": 1,
+      "total_gas_used": 3962,
+      "total_gas_fees": 264134,
+      "total_forward_fees": 0,
+      "total_fees": 470646
+    },
+    "test w5 bench: INTERNAL transfer::trace#5": {
+      "test_name": "test w5 bench: INTERNAL transfer",
+      "trace_name": "setup deploy AgenticWallet",
+      "tx_count": 2,
+      "total_gas_used": 8053,
+      "total_gas_fees": 536869,
+      "total_forward_fees": 644007,
+      "total_fees": 820465
+    },
+    "test w5 bench: EXTERNAL transfer::trace#2": {
+      "test_name": "test w5 bench: EXTERNAL transfer",
+      "trace_name": "Trace 2",
+      "tx_count": 1,
+      "total_gas_used": 309,
+      "total_gas_fees": 20601,
+      "total_forward_fees": 88802,
+      "total_fees": 20601
+    },
+    "test w5 bench: OWNER transfer::trace#1": {
+      "test_name": "test w5 bench: OWNER transfer",
+      "trace_name": "Trace 1",
+      "tx_count": 1,
+      "total_gas_used": 309,
+      "total_gas_fees": 20601,
+      "total_forward_fees": 89869,
+      "total_fees": 20601
+    },
+    "test w5 bench: EXTERNAL transfer::trace#3": {
+      "test_name": "test w5 bench: EXTERNAL transfer",
+      "trace_name": "Trace 3",
+      "tx_count": 1,
+      "total_gas_used": 309,
+      "total_gas_fees": 20601,
+      "total_forward_fees": 88802,
+      "total_fees": 20601
+    },
+    "test w5 bench: SET delegate::trace#4": {
+      "test_name": "test w5 bench: SET delegate",
+      "trace_name": "setup deploy collection",
+      "tx_count": 1,
+      "total_gas_used": 1328,
+      "total_gas_fees": 88534,
+      "total_forward_fees": 1131654,
+      "total_fees": 88534
+    },
+    "test w5 bench: SET delegate::trace#6": {
+      "test_name": "test w5 bench: SET delegate",
+      "trace_name": "setup top up AgenticWallet",
+      "tx_count": 1,
+      "total_gas_used": 1108,
+      "total_gas_fees": 73868,
+      "total_forward_fees": 44446,
+      "total_fees": 73868
+    },
+    "test w5 bench: SET delegate::trace#5": {
+      "test_name": "test w5 bench: SET delegate",
+      "trace_name": "setup deploy AgenticWallet",
+      "tx_count": 2,
+      "total_gas_used": 8053,
+      "total_gas_fees": 536869,
+      "total_forward_fees": 644007,
+      "total_fees": 820465
+    },
+    "test w5 bench: deploy should set the seqno, delegate key and owner::trace#3": {
+      "test_name": "test w5 bench: deploy should set the seqno, delegate key and owner",
+      "trace_name": "Trace 3",
+      "tx_count": 1,
+      "total_gas_used": 309,
+      "total_gas_fees": 20601,
+      "total_forward_fees": 88802,
+      "total_fees": 20601
+    },
+    "test w5 bench: deploy should set the seqno, delegate key and owner::trace#4": {
+      "test_name": "test w5 bench: deploy should set the seqno, delegate key and owner",
+      "trace_name": "setup deploy collection",
+      "tx_count": 1,
+      "total_gas_used": 1328,
+      "total_gas_fees": 88534,
+      "total_forward_fees": 1131654,
+      "total_fees": 88534
+    },
+    "test w5 bench: EXTERNAL transfer::trace#4": {
+      "test_name": "test w5 bench: EXTERNAL transfer",
+      "trace_name": "setup deploy collection",
+      "tx_count": 1,
+      "total_gas_used": 1328,
+      "total_gas_fees": 88534,
+      "total_forward_fees": 1131654,
+      "total_fees": 88534
+    },
+    "test w5 bench: EXTERNAL transfer::trace#8": {
+      "test_name": "test w5 bench: EXTERNAL transfer",
+      "trace_name": "Trace 8",
+      "tx_count": 1,
+      "total_gas_used": 309,
+      "total_gas_fees": 20601,
+      "total_forward_fees": 48890,
+      "total_fees": 20601
+    },
+    "test w5 bench: SET delegate::trace#3": {
+      "test_name": "test w5 bench: SET delegate",
+      "trace_name": "Trace 3",
+      "tx_count": 1,
+      "total_gas_used": 309,
+      "total_gas_fees": 20601,
+      "total_forward_fees": 88802,
+      "total_fees": 20601
+    },
+    "test w5 bench: OWNER transfer::trace#2": {
+      "test_name": "test w5 bench: OWNER transfer",
+      "trace_name": "Trace 2",
+      "tx_count": 1,
+      "total_gas_used": 309,
+      "total_gas_fees": 20601,
+      "total_forward_fees": 88802,
+      "total_fees": 20601
+    },
+    "test w5 bench: deploy should set the seqno, delegate key and owner::trace#6": {
+      "test_name": "test w5 bench: deploy should set the seqno, delegate key and owner",
+      "trace_name": "setup top up AgenticWallet",
+      "tx_count": 1,
+      "total_gas_used": 1108,
+      "total_gas_fees": 73868,
+      "total_forward_fees": 44446,
+      "total_fees": 73868
+    },
+    "test w5 bench: OWNER transfer::trace#7": {
+      "test_name": "test w5 bench: OWNER transfer",
+      "trace_name": "OWNER transfer",
+      "tx_count": 2,
+      "total_gas_used": 2963,
+      "total_gas_fees": 197535,
+      "total_forward_fees": 126580,
+      "total_fees": 221979
+    },
+    "test w5 bench: EXTERNAL transfer::trace#5": {
+      "test_name": "test w5 bench: EXTERNAL transfer",
+      "trace_name": "setup deploy AgenticWallet",
+      "tx_count": 2,
+      "total_gas_used": 8053,
+      "total_gas_fees": 536869,
+      "total_forward_fees": 644007,
+      "total_fees": 820465
+    },
+    "test w5 bench: SET delegate::trace#1": {
+      "test_name": "test w5 bench: SET delegate",
+      "trace_name": "Trace 1",
+      "tx_count": 1,
+      "total_gas_used": 309,
+      "total_gas_fees": 20601,
+      "total_forward_fees": 89869,
+      "total_fees": 20601
+    },
+    "test w5 bench: SET delegate::trace#7": {
+      "test_name": "test w5 bench: SET delegate",
+      "trace_name": "SET delegate",
+      "tx_count": 1,
+      "total_gas_used": 2233,
+      "total_gas_fees": 148868,
+      "total_forward_fees": 64535,
+      "total_fees": 148868
+    },
+    "test w5 bench: INTERNAL transfer::trace#3": {
+      "test_name": "test w5 bench: INTERNAL transfer",
+      "trace_name": "Trace 3",
+      "tx_count": 1,
+      "total_gas_used": 309,
+      "total_gas_fees": 20601,
+      "total_forward_fees": 88802,
+      "total_fees": 20601
+    },
+    "test w5 bench: EXTERNAL transfer::trace#6": {
+      "test_name": "test w5 bench: EXTERNAL transfer",
+      "trace_name": "setup top up AgenticWallet",
+      "tx_count": 1,
+      "total_gas_used": 1108,
+      "total_gas_fees": 73868,
+      "total_forward_fees": 44446,
+      "total_fees": 73868
+    },
+    "test w5 bench: INTERNAL transfer::trace#7": {
+      "test_name": "test w5 bench: INTERNAL transfer",
+      "trace_name": "INTERNAL transfer",
+      "tx_count": 2,
+      "total_gas_used": 4535,
+      "total_gas_fees": 302335,
+      "total_forward_fees": 170270,
+      "total_fees": 326779
+    },
+    "test w5 bench: deploy should set the seqno, delegate key and owner::trace#1": {
+      "test_name": "test w5 bench: deploy should set the seqno, delegate key and owner",
+      "trace_name": "Trace 1",
+      "tx_count": 1,
+      "total_gas_used": 309,
+      "total_gas_fees": 20601,
+      "total_forward_fees": 89869,
+      "total_fees": 20601
+    },
+    "test w5 bench: OWNER transfer::trace#4": {
+      "test_name": "test w5 bench: OWNER transfer",
+      "trace_name": "setup deploy collection",
+      "tx_count": 1,
+      "total_gas_used": 1328,
+      "total_gas_fees": 88534,
+      "total_forward_fees": 1131654,
+      "total_fees": 88534
+    },
+    "test w5 bench: INTERNAL transfer::trace#4": {
+      "test_name": "test w5 bench: INTERNAL transfer",
+      "trace_name": "setup deploy collection",
+      "tx_count": 1,
+      "total_gas_used": 1328,
+      "total_gas_fees": 88534,
+      "total_forward_fees": 1131654,
+      "total_fees": 88534
+    },
+    "test w5 bench: INTERNAL transfer::trace#6": {
+      "test_name": "test w5 bench: INTERNAL transfer",
+      "trace_name": "setup top up AgenticWallet",
+      "tx_count": 1,
+      "total_gas_used": 1108,
+      "total_gas_fees": 73868,
+      "total_forward_fees": 44446,
+      "total_fees": 73868
+    },
+    "test w5 bench: OWNER transfer::trace#6": {
+      "test_name": "test w5 bench: OWNER transfer",
+      "trace_name": "setup top up AgenticWallet",
+      "tx_count": 1,
+      "total_gas_used": 1108,
+      "total_gas_fees": 73868,
+      "total_forward_fees": 44446,
+      "total_fees": 73868
+    },
+    "test w5 bench: INTERNAL transfer::trace#1": {
+      "test_name": "test w5 bench: INTERNAL transfer",
+      "trace_name": "Trace 1",
+      "tx_count": 1,
+      "total_gas_used": 309,
+      "total_gas_fees": 20601,
+      "total_forward_fees": 89869,
+      "total_fees": 20601
+    },
+    "test w5 bench: OWNER transfer::trace#3": {
+      "test_name": "test w5 bench: OWNER transfer",
+      "trace_name": "Trace 3",
+      "tx_count": 1,
+      "total_gas_used": 309,
+      "total_gas_fees": 20601,
+      "total_forward_fees": 88802,
+      "total_fees": 20601
+    },
+    "test w5 bench: INTERNAL transfer::trace#2": {
+      "test_name": "test w5 bench: INTERNAL transfer",
+      "trace_name": "Trace 2",
+      "tx_count": 1,
+      "total_gas_used": 309,
+      "total_gas_fees": 20601,
+      "total_forward_fees": 88802,
+      "total_fees": 20601
+    },
+    "test w5 bench: EXTERNAL transfer::trace#1": {
+      "test_name": "test w5 bench: EXTERNAL transfer",
+      "trace_name": "Trace 1",
+      "tx_count": 1,
+      "total_gas_used": 309,
+      "total_gas_fees": 20601,
+      "total_forward_fees": 89869,
+      "total_fees": 20601
+    },
+    "test w5 bench: deploy should set the seqno, delegate key and owner::trace#5": {
+      "test_name": "test w5 bench: deploy should set the seqno, delegate key and owner",
+      "trace_name": "setup deploy AgenticWallet",
+      "tx_count": 2,
+      "total_gas_used": 8053,
+      "total_gas_fees": 536869,
+      "total_forward_fees": 644007,
+      "total_fees": 820465
+    }
+  }
+}

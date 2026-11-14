@@ -1,0 +1,42 @@
+# Acton directories
+.acton/
+.studio/
+
+# Build directory
+build/
+dist/
+
+# Project-local git worktrees
+.worktrees/
+
+.DS_Store
+node_modules/
+
+# VS Code
+.vscode/*
+.history/
+*.vsix
+
+# IDEA files
+.idea
+
+# Vim
+Session.vim
+.vim/
+
+# Other private editor directories
+.nvim/
+.emacs/
+.helix/
+
+# Acton files
+.env
+*.mnemonic
+wallets.toml
+libraries.toml
+global.wallets.toml
+global.libraries.toml
+
+# Coverage
+lcov.info
+gen/
